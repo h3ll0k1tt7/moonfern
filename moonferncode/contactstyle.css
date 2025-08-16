@@ -1,0 +1,81 @@
+body {
+background-color: #fffdfd;  
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+'Segoe UI', Roboto, Oxygen, 
+Ubuntu, Cantarell, 'Open Sans', 
+'Helvetica Neue', sans-serif;
+}
+        #contactus {
+          font-size: 5vmin;
+          color: #6b5b72;
+          text-align: center;
+        }
+        .container {
+            width: 600px;
+            margin:50px auto ;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+        }
+         @media (max-width: 1000px) {
+          .container {
+            width: 70vw;
+    }
+}
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #6b5b72;
+        }
+
+        input, textarea {
+            width: 95%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            font-size:2.7vmin;
+            color: #6b5b72;
+        }
+
+        textarea {
+            height: 15vmin;
+        }
+
+#sendmessage {
+background-color: #e09c7c;
+color: #ffffff;
+border: solid 1px #e09C7c;
+border-radius: 7px;
+font-size: 2.7vmin;
+width: 100%;
+height: 8vmin;
+text-align: center;
+}
+#sendmessage:hover {
+background-color: #ffffff;
+color: #e09C7c;
+border: solid 2px #e09C7c;
+transition-duration: 0.3s;
+}
+        .social-icons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            color: #6b5b72;
+            margin: 0 10px;
+            font-size: 24px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #9b90a0;
+        }
+        #footer { 
+    text-align:center; 
+    color:#6b5b72;
+    font-size: 2.6vmin;
+}
